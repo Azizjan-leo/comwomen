@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+
 // import './assets/js/filter';
 // import './assets/js/jqBootstrapValidation';
-// // import './assets/js/jquery.appear';
+// import './assets/js/jquery.appear';
 // import './assets/js/script';
-// import './assets/vendor/bootstrap/js/bootstrap';
-// import './assets/vendor/jquery/jQuery';
+// import './assets/vendor/bootstrap/js/bootstrap.bundle.min.js';
 
 // import './assets/vendor/bootstrap/js/bootstrap.bundle.min.js'
 import "../node_modules/bootstrap/dist/css/bootstrap.css"

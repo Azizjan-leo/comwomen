@@ -10,7 +10,7 @@ function Projects() {
 			   <div className="col-lg-4 mb-4">
 					<div className="card h-100">
 						<div className="card-img">
-							<img className="img-fluid" src="images/services-img-01.jpg" alt="" />
+							<img className="img-fluid" src={require("../assets/images/services-img-01.jpg")} alt="" />
 						</div>
 						<div className="card-body">
 							<h4 className="card-header"> Analytics </h4>
@@ -21,7 +21,7 @@ function Projects() {
 			   <div className="col-lg-4 mb-4">
 					<div className="card h-100">
 						<div className="card-img">
-							<img className="img-fluid" src="images/services-img-02.jpg" alt="" />
+							<img className="img-fluid" src={require("../assets/images/services-img-02.jpg")} alt="" />
 						</div>
 						<div className="card-body">
 							<h4 className="card-header"> Applications </h4>
@@ -32,7 +32,7 @@ function Projects() {
 			   <div className="col-lg-4 mb-4">
 					<div className="card h-100">
 						<div className="card-img">
-							<img className="img-fluid" src="images/services-img-03.jpg" alt="" />
+							<img className="img-fluid" src={require("../assets/images/services-img-03.jpg")} alt="" />
 						</div>
 						<div className="card-body">
 							<h4 className="card-header"> Business Process </h4>
@@ -43,7 +43,7 @@ function Projects() {
 			   <div className="col-lg-4 mb-4">
 					<div className="card h-100">
 						<div className="card-img">
-							<img className="img-fluid" src="images/services-img-04.jpg" alt="" />
+							<img className="img-fluid" src={require("../assets/images/services-img-04.jpg")} alt="" />
 						</div>
 						<div className="card-body">
 							<h4 className="card-header"> Consulting </h4>
@@ -54,7 +54,7 @@ function Projects() {
 			   <div className="col-lg-4 mb-4">
 					<div className="card h-100">
 						<div className="card-img">
-							<img className="img-fluid" src="images/services-img-05.jpg" alt="" />
+							<img className="img-fluid" src={require("../assets/images/services-img-05.jpg")} alt="" />
 						</div>
 						<div className="card-body">
 							<h4 className="card-header"> Infrastructure </h4>
@@ -65,7 +65,7 @@ function Projects() {
 			   <div className="col-lg-4 mb-4">
 					<div className="card h-100">
 						<div className="card-img">
-							<img className="img-fluid" src="images/services-img-06.jpg" alt="" />
+							<img className="img-fluid" src={require("../assets/images/services-img-06.jpg")} alt="" />
 						</div>
 						<div className="card-body">
 							<h4 className="card-header"> Product Engineering </h4>

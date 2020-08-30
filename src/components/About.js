@@ -19,7 +19,7 @@ function About() {
               </ul>
            </div>
            <div className="col-lg-6">
-              <img className="img-fluid rounded" src="images/about-img.jpg" alt="" />
+              <img className="img-fluid rounded" src={require("../assets/images/about-img.jpg")} alt="" />
            </div>
         </div>
     </div>
