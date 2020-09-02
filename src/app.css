@@ -5,3 +5,126 @@
 .footer-description {
     color: #fff;
 }
+
+
+/* custom styles navbar */
+.comwomen-navbar {
+    padding: 8px 10px !important;
+}
+
+.comwomen-navbar li {
+    position: relative;
+    
+}
+
+
+.navbar-nav .nav-link {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #000 !important;
+
+}
+
+
+.navbar-nav .nav-link::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    background: #1273eb;
+    height: 5px;
+    top: 0px;
+    left: 0px;
+    border-radius: 6px;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.navbar-nav .nav-link:hover::before {
+    width: 60%;
+}
+
+.navbar-nav .nav-link:after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    background: #1273eb;
+    height: 5px;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 6px;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.dropdown::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    background: #1273eb;
+    height: 5px;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 6px;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.dropdown::after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    background: #1273eb;
+    height: 5px;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 6px;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.navbar-nav .nav-link:hover::after, .navbar-nav .nav-link:hover::before, .dropdown:hover::after, .dropdown:hover::before{
+    width: 60%;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #1273eb !important;
+}
+
+.navbar-nav i {
+    font-size: 14px;
+    float: right;
+    margin-right: -5px;
+    margin-top: 10px;
+}
+/* .navbar-nav .nav-link.active:after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    background: #1273eb;
+    height: 5px;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 6px;
+
+} */
+/* end custom style navbar */
+
+
+/* footer */
+
+.news-box {
+    color: #fff;
+}
+/* end footer */
