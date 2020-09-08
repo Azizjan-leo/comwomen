@@ -15,7 +15,11 @@
 .comwomen-navbar li {
     position: relative;
     
-}
+} 
+
+.comwomen-navbar li a {
+    text-decoration: none;
+}   
 
 
 .navbar-nav .nav-link {
@@ -120,6 +124,50 @@
 
 } */
 /* end custom style navbar */
+
+/* slider */
+.carousel-inner {
+    position: relative;
+    width: 100%;
+}
+
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item h3 {
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.carousel-item p {
+    font-size: 38px;   
+}
+
+.carousel-indicators li {
+    width: 30px;
+    height: 0;
+}
+
+.carousel-indicators li::after {
+    height: 0;
+}
+
+.slide ol li {
+        border-radius: 6px;
+        background: #323232
+}
+
+.carousel-indicators .active {
+    background: #1273eb;
+}
+/* end slider */
 
 
 /* footer */
